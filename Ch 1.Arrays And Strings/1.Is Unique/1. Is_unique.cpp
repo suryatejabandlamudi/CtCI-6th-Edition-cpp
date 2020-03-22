@@ -1,8 +1,4 @@
-#include <string>
-#include <vector>
-#include <iostream>
-#include <bitset>
-#include <algorithm> // for sort() 
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -67,6 +63,9 @@ int main(){
 		{
 			cout << word << string(": ") << boolalpha << isUniqueChars_noDS(word) <<endl;
 		}
+		cout<<"Working";
+
 		return 0;
+
 }
 
