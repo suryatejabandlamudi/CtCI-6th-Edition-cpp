@@ -6,6 +6,8 @@
 
 using namespace std;
 
+
+
 bool isUniqueChars(const string &str){
 		if (str.length() > 128){
 			return false;
