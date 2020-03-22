@@ -6,8 +6,6 @@
 
 using namespace std;
 
-
-
 bool isUniqueChars(const string &str){
 		if (str.length() > 128){
 			return false;
@@ -30,6 +28,8 @@ bool isUniqueChars_bitvector(const string &str) {
 	for(int i = 0; i < str.length(); i++) {
 		int val = str[i];
 		if(bits.test(val) > 0) {
+			cout<<"VAL-"<<val;
+			cout<<"BITS-"<<bits;
 			return false;
 		}
 		bits.set(val);
