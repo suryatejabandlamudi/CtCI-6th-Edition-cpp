@@ -70,6 +70,6 @@ int main() {
      if(arePermutation_2(str1, str2))
       cout << str1 <<" and " << str2 << " are permutation of each other" << endl;
     else
-      cout << str1 <<" and " << str2 << " are not permutation of each other" << endl;
+      cout   << str1 <<" and " << str2 << " are not permutation of each other" << endl;
     return 0;
 }
