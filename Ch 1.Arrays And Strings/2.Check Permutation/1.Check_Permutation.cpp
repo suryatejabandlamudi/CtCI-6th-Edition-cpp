@@ -71,5 +71,6 @@ int main() {
       cout << str1 <<" and " << str2 << " are permutation of each other" << endl;
     else
       cout   << str1 <<" and " << str2 << " are not permutation of each other" << endl;
+    cout<<"Completed";
     return 0;
 }
