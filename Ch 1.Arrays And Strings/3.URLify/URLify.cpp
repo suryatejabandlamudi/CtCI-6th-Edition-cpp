@@ -43,5 +43,6 @@ int main()
     std::cout << "Actual string   : " << str << std::endl;
     urlify(str, 13);                                        //Length of "Mr John Smith" = 13
     std::cout << "URLified string : " << str << std::endl;
+    std::cout<<"Completed";
     return 0;
 }
