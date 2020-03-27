@@ -4,6 +4,9 @@
 
 using namespace std;
 
+
+
+
 int getCharNumber(const char & c){
     int a = (int) 'a';
     int z = (int) 'z';
